@@ -1,0 +1,14 @@
+/bin/
+/node_modules/
+dist/
+/.tsbuildinfo
+
+*.sql
+stack*.json
+
+update_all.sh
+
+.envrc.local
+
+BAK_*
+*_BAK
