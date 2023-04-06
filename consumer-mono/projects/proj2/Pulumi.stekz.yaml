@@ -1,0 +1,5 @@
+config:
+  pulumi:disable-default-providers:
+    - "aws"
+    - "kubernetes"
+    - "gitlab"

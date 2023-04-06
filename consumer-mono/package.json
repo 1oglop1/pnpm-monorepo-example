@@ -1,0 +1,18 @@
+{
+  "name": "@myorg/pulumi.infra",
+  "private": true,
+  "type": "commonjs",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "scripts": {
+    "prepare": "node scripts/root-prepare.js",
+    "prettier": "prettier --write --loglevel error .",
+    "prettier-check": "prettier --check ."
+  },
+  "files": [
+    "/dist"
+  ],
+  "resolutions": {
+    "typescript": "^4.6.2"
+  }
+}
